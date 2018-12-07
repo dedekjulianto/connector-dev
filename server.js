@@ -13,7 +13,7 @@ const app = express();
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 3000;
 // DB config
 const db = require('./config/keys').mongoURI;
 
